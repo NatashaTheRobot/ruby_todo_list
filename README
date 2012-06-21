@@ -1,0 +1,25 @@
+This is a Basic Command Line To Do App in Ruby
+
+We’re going to create a command-line app to manage a todo list. For the first iteration, we want to support the following features.
+
+First, users should be able to access all features via the command line. For example:
+
+todo add Bake a delicious blueberry-glazed cheesecake
+todo list
+todo delete <todo-identifier>
+todo complete <todo-identifier>
+
+These are just examples. You don’t need to use the same command names, or command formats.
+Requirements
+
+A user can pass ‐‐help or ‐h to the app to see a list of available commands and their use
+
+The TODO list must be stored in a plain-text file which is both human readable and writable.
+
+A user can append an item to their TODO list
+A user can prepend an item to their TODO list
+A user can delete a specific item from their TODO list
+A user can complete a specific item from their TODO list
+A user can see a list of all their outstanding TODO items by creation date
+A user can see a list of all their completed TODO items by completion date
+We strongly encourage you to use the doctopt.rb gem to parse your command line options.
